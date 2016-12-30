@@ -1,0 +1,113 @@
+<style>
+    .tc-padding-top{ padding-top: 100px;}
+.tc-padding-bottom{ padding-bottom: 100px;}
+.tc-padding{ padding: 100px 0;}
+.tc-margin-top{ margin-top: 100px;}
+.tc-margin-bottom{ margin-bottom: 100px;}
+.tc-margin{ margin: 100px 0;}
+    
+    .f-courses.active .name-tag{ top: -25px; left: auto; right: auto; bottom: auto; left: 50%;
+-webkit-transform: translate(-50%, 0);
+-moz-transform: translate(-50%, 0);
+-ms-transform: translate(-50%, 0);
+transform: translate(-50%, 0);}
+    
+    
+.f-courses.active .f-courses-img{ border-color: #f8b239;}
+.f-courses.active .f-courses-img img{ border-color: #da951f;}
+.f-courses.active .f-courses-detail{ opacity: 1; visibility: visible;}
+.f-courses-detail{ position: absolute; top: 170px; z-index: -1; text-align: center; padding: 200px 30px 80px; opacity: 0; visibility: hidden;}
+.f-courses-detail .angle-bg{ left: 0; position: absolute; bottom: 0; width: 100%;}
+.f-courses-detail .btn{ border-color: #fff; color: #fff;}
+.f-courses-detail .btn::before,
+.f-courses-detail .btn::after{ border-color: #fff;}
+.f-courses-detail::before,
+.f-courses-detail::after{ content: ""; height: 12px; width: 31px; position: absolute; top: 0;}
+.f-courses-detail::before{ background: url(../images/left-stand.png) no-repeat; right: 100%;}
+.f-courses-detail::after{ background: url(../images/right-stand.png) no-repeat; left: 100%;}
+    
+    .f-courses-img{ border: 50px solid #f3f3f3; border-radius: 100%; overflow: hidden;}  
+.f-courses-img img{ border: 8px solid #dbdbdb; border-radius: 100%;}
+.f-courses .name-tag{ height: 127px; width: 127px; border-radius: 100%; font-size: 21px; display: block; color: #fff;
+text-align: center; padding: 35px 0; position: absolute; background: #f8b239;}
+</style>
+
+<section class="tc-padding o-featured-courses white-bg">
+    <div class="container">
+
+        <!-- main Headeing -->
+        <div class="main-heading-holder">
+            <div class="main-heading gray-color">
+                <h2><em>Our Featured Courses</em><span>c</span></h2>
+                <span class="sperater">
+                    <i></i>
+                    <i class="active"></i>
+                    <i></i>
+                </span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the<br> industry's standard dummy text ever since the 1500s</p>
+            </div>
+        </div>
+        <!-- main Headeing -->
+
+        <!-- Courses Cirlec Slider -->
+        <div class="cirlec-slider">
+            <div class="cirlec-slider-bg" style="background: url(images/bg-border.png) no-repeat center center;">
+
+                <!-- f courses -->
+                <div class="f-courses style-top" data-angle="180" style="transform: translate(-50%, -50%) rotate(180deg) translateY(-393px) rotate(-180deg);">
+                    <div class="f-courses-img"><img src="images/courses/img-1-1.jpg" alt=""></div>
+                    <span class="name-tag style-1 position-center-y">Website Design</span>
+                    <div class="f-courses-detail h-white p-white">
+                        <h4>Professional web designer training</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                        <a class="btn" href="#">View more</a>
+                        <img class="angle-bg" src="images/angle-bg.png" alt="">
+                    </div>
+                </div>
+                <!-- f courses -->
+
+                <!-- f courses -->
+                <div class="f-courses style-bottom" data-angle="270" style="transform: translate(-50%, -50%) rotate(270deg) translateY(-393px) rotate(-270deg);">
+                    <div class="f-courses-img"><img src="images/courses/img-1-2.jpg" alt=""></div>
+                    <span class="name-tag style-2 position-center-x">Website Design</span>
+                    <div class="f-courses-detail h-white p-white">
+                        <h4>Professional web designer training</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                        <a class="btn" href="#">View more</a>
+                        <img class="angle-bg" src="images/angle-bg.png" alt="">
+                    </div>
+                </div>
+                <!-- f courses -->
+
+                <!-- f courses -->
+                <div class="f-courses style-left active" data-angle="360" style="transform: translate(-50%, -50%) rotate(360deg) translateY(-393px) rotate(-360deg);">
+                    <div class="f-courses-img"><img src="images/courses/img-1-3.jpg" alt=""></div>
+                    <span class="name-tag style-3 position-center-y">Website Design</span>
+                    <div class="f-courses-detail h-white p-white">
+                        <h4>Professional web designer training</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                        <a class="btn" href="#">View more</a>
+                        <img class="angle-bg" src="images/angle-bg.png" alt="">
+                    </div>
+                </div>
+                <!-- f courses -->
+
+                <!-- f courses -->
+                <div class="f-courses style-top" data-angle="450" style="transform: translate(-50%, -50%) rotate(450deg) translateY(-393px) rotate(-450deg);">
+                    <div class="f-courses-img"><img src="images/courses/img-1-4.jpg" alt=""></div>
+                    <span class="name-tag style-4 position-center-x">Website Design</span>
+                    <div class="f-courses-detail h-white p-white">
+                        <h4>Professional web designer training</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                        <a class="btn" href="#">View more</a>
+                        <img class="angle-bg" src="images/angle-bg.png" alt="">
+                    </div>
+                </div>
+                <!-- f courses -->
+
+
+            </div>
+        </div>
+        <!-- Courses Cirlec Slider -->
+    </div>
+</section>
